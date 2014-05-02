@@ -89,8 +89,12 @@ class Ability
           rules.push(*project_guest_rules)
         end
 
-        if project.public? || project.internal?
+        if project.public?
           rules.push(*public_project_rules)
+        end
+
+        if project.internal?
+          rules.push(*project_guest_rules)
         end
 
         if project.owner == user || user.admin?
