@@ -129,7 +129,6 @@ class Ability
         :read_milestone,
         :read_project_snippet,
         :read_project_member,
-        :read_merge_request,
         :read_note,
         :create_project,
         :create_issue,
@@ -141,6 +140,7 @@ class Ability
       project_guest_rules + [
         :download_code,
         :fork_project,
+        :read_merge_request,
         :create_project_snippet,
         :update_issue,
         :admin_issue,
