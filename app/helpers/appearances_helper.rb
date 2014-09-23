@@ -1,14 +1,14 @@
 module AppearancesHelper
   def brand_item
-    nil
+    true
   end
 
   def brand_title
-    'GitLab Community Edition'
+    'Code & bug tracker'
   end
 
   def brand_image
-    nil
+    'arago.png'
   end
 
   def brand_text
