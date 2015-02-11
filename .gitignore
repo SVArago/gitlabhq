@@ -31,7 +31,7 @@ db/*.sqlite3-journal
 db/data.yml
 doc/code/*
 dump.rdb
-log/*.log*
+log
 nohup.out
 public/assets/
 public/uploads.*
